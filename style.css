@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Water+Brush&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body
+{
+    
+    background: #A85CF9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    margin: auto;
+    
+    
+    width: 50%;
+    height:max-content;
+    display: flex;
+    
+    background-color:#5534A5;
+    padding: 4rem 0;
+
+    border-radius: 30px;
+}
+.text
+{
+    width: 50%;
+    
+    
+}
+.svg-img
+{
+    width: 50%;
+}
+h2,h1
+{
+    font-family: 'Water Brush', cursive;
+    margin-left: 2rem;
+    color: white;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 2rem;
+    width: 75%;
+    font-weight: 700;
+
+    color: white;
+}
+h2
+{
+    font-size: 50px;
+    
+}
+h1
+{
+    font-size: 70px;
+    margin-top: 4rem;
+}
+#ramazan-img
+{
+    width: 100%;
+}
+@media only screen and (max-width : 700px)
+{
+    .container
+    {
+        display: block;
+        padding: 1.5rem 0;
+        width: 90%;
+    }
+    .text
+    {
+        width: 100%;
+    }
+    .svg-img
+    {
+        width: 100%;;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h1
+    {
+        font-size: 65px;
+    }
+    p
+    {
+        width: 90%;
+    }
+}
